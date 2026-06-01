@@ -23,7 +23,7 @@ body{
     color:white;
 }
 
-/* HEADER */
+
 header{
     position:fixed;
     top:0;
@@ -37,7 +37,7 @@ header{
     z-index:100;
 }
 
-/* LOGO ROJO */
+
 .logo{
     font-size:3rem;
     color:#35a519;
@@ -67,14 +67,14 @@ nav a.active{
     transform:scale(1.1); 
 }
 
-/* SECTIONS */
+
 section{
     min-height:100vh;
     padding:12rem 9% 5rem;
     scroll-margin-top:100px;
 }
 
-/* HOME */
+
 .home{
     display:flex;
     justify-content:center;
@@ -100,7 +100,7 @@ span{
     color:#35a519;
 }
 
-/* IMG */
+
 .home-img img{
     width:32vw;
     border-radius:50%;
@@ -112,7 +112,7 @@ span{
     transform:scale(1.05);
 }
 
-/* ICONOS */
+
 .social-icons a{
     display:inline-flex;
     align-items:center;
@@ -134,7 +134,7 @@ span{
     box-shadow:0 0 25px #35a519;
 }
 
-/* BOTON */
+
 .btn{
     display:inline-block;
     padding:1rem 2.8rem;
@@ -151,7 +151,7 @@ span{
     transform:scale(1.05);
 }
 
-/* TITULOS */
+
 .heading{
     font-size:4rem;
     text-align:center;
@@ -159,7 +159,7 @@ span{
     color:#35a519;
 }
 
-/* BOXES */
+
 .container{
     display:grid;
     grid-template-columns:repeat(auto-fit,minmax(250px,1fr));
@@ -173,8 +173,8 @@ span{
     text-align:center;
     transition:0.3s ease;
     img{
-    width:32vw;
-    border-radius:50%;
+    width:24vw;
+    border-radius:15%;
     cursor:pointer;
     transition:0.3s;
 }
@@ -197,7 +197,7 @@ span{
     font-size:1.5rem;
 }
 
-/* TYPING */
+
 .typing-text span::before{
     content:"Developer";
     animation:words 10s infinite;
@@ -212,7 +212,7 @@ span{
     67%,100%{content:"Tester";}
 }
 
-/* RESPONSIVE */
+ 
 @media(max-width:995px){
     .home{
         flex-direction:column;
